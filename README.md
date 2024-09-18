@@ -25,15 +25,19 @@ This Python script allows you to log in to Azure using Azure SDKs, and retrieve 
 
    ```bash   
    git clone https://github.com/your-repo/azure-logs-fetcher.git
+   ```
+   ```bash   
    cd azure-logs-fetcher   
-    ```
+   ```
 
 **Set up the virtual environment**:
+
 ```bash    
    python -m venv venv
 ```
 
 **Activate the virtual environment**:
+
    Windows:
    ```bash  
 
