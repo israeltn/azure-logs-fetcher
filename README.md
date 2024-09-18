@@ -18,3 +18,32 @@ This Python script allows you to log in to Azure using Azure SDKs, and retrieve 
 
    ```bash
    pip install azure-identity azure-mgmt-monitor azure-loganalytics azure-mgmt-security
+   ```
+
+
+** Clone the repository (or download the project):**
+
+   ```bash   
+   git clone https://github.com/your-repo/azure-logs-fetcher.git
+   cd azure-logs-fetcher
+   Set up the virtual environment:
+      ```
+   ```bash  
+   Copy code
+   python -m venv venv
+   Activate the virtual environment:
+   ```
+Windows:
+```bash  
+
+venv\Scripts\activate
+```
+macOS/Linux:
+```bash
+source venv/bin/activate
+```
+Install the dependencies from requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
